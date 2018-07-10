@@ -27,10 +27,20 @@
   to { transform: rotate(360deg); }
 }
 
-#components-layout-demo-fixed .logo {
-  width: 120px;
-  height: 31px;
-  background: rgba(255,255,255,.2);  
-  margin: 16px 24px 16px 0;
+.logo {
+  /* width: 120px;
+  height: 31px; */
+  margin: 0px 20px 0px 0;
+  /* background: rgba(255,255,255,.2);   */
+  /* margin: 16px 24px 16px 0; */
+  float: left;
+}
+
+.logo-text{
+  font-size: large;
+  color: white;
+  /* width: 30px;
+  height: 30px; */
+  margin: 0px 20px 0px 0;
   float: left;
 }
